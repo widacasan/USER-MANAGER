@@ -3,13 +3,17 @@ button.button {
     background-color: #2185D0;
     border-radius: 4px;
     color: #fff;
-    border: none;   
+    border: none;
     padding: 10px 20px;
     font-weight: 700;
     font-size: 15px;
-    cursor:pointer;
-}
-
-button.button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+  }
+  
+  button.button:hover {
     background-color: #1678c2;
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
